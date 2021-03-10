@@ -11,7 +11,7 @@ def speed_calc_decorator(function):
         t0 = time.time()
         function()
         t1 = time.time()
-        print(f"{function.__name__} run speed: {t1 - t0}")
+        print(f"{function.__name__} run speed: {t1 - t0} seconds")
 
     return calc
 
